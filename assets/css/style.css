@@ -1,0 +1,663 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+}
+
+/* LOGO AND NAV BAR */
+
+#logo {
+    margin-top: 0px; 
+    margin-right: auto; 
+    margin-bottom: 0px;  
+    margin-left: 400px;
+    width: 25%;
+    background-color: white;
+}
+
+
+
+nav {
+    background-color: rgb(190, 190, 190);   
+    padding: 0.8rem;
+    border: 1px solid gray;
+    border-bottom: none; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly; 
+    font-size: 18px; 
+    box-sizing: border-box;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    margin: 1px;
+    font-weight: bold; 
+}
+
+nav > a:hover {
+    color: blue;
+     
+}
+
+
+
+
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(78, 202, 245);
+    bottom: 40px;
+    right: 50px;
+    border-radius: 50%;
+    text-decoration:none ;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+
+
+header {
+    background:white;
+    padding: 10px;
+}
+
+
+.active {
+    background-color:rgb(220,220,220);
+    
+}
+
+/* BACKGROUND IMAGE */
+#call {
+	padding: 1rem 0;
+    background-image: url('https://www.aktacleaningdublin.com/uploads/JSeO4lw4/767x0_2560x0/23459150-close-up-image-of-.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50% ;
+    padding-top: 150px;
+}
+
+/* TEXT OVERLAY BOX AND CALL BUTTON */
+
+.text-white {
+    color: white;
+}
+
+.text-box {
+    color: white;
+    margin-left: 45px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: left;
+    
+    
+}
+
+.call-box {
+    background-color: rgba(78, 202, 245, .6);
+    width : 100%;
+    height: 100px;
+    left: 0px;
+    margin-top: 110px;
+}
+
+.button {
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+    border: 3px solid white;
+    background-color: rgb(78, 202, 245);
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 5px;
+    margin-top:30px; 
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+    
+}
+
+.button:hover {
+    background-color:rgb(220,220,220);
+    color: black;
+}
+
+
+
+/* TEXT UNDER IMAGE */
+
+
+
+h1 {
+    color:black;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+
+
+h3 {
+    color:rgb(78, 202, 245);
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(163, 163, 163) ;
+    width: 75%;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+
+#review {
+    color:black;
+    text-align:center;
+
+}
+
+.text {
+    color:rgb(78, 202, 245);
+}
+
+ .one {
+    vertical-align: top;
+    display: inline-block;
+    width:20%;
+    padding-right: 20px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.two {
+    vertical-align: top;
+    display: inline-block;
+    width:20%;
+    padding-right: 20px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 50px;
+
+}
+
+.three {
+    vertical-align: top;
+    display: inline-block;
+    width:20%;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+
+
+h2 {
+    color:rgb(78, 202, 245);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* PRODUCTS PAGE */
+
+/*IMAGES TEXT*/
+
+.imgmaintxt {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(78, 202, 245);
+    
+}
+
+.imgtext1 {
+    
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;
+   
+   
+}
+.imgtext2{
+    
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 20px;
+   
+} 
+.imgtext3 {
+   
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+    
+}
+.imgtext4 {
+    
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 90px;
+    
+}
+
+.imgmaintxt2 {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(78, 202, 245);
+}
+
+
+.imgtext5 {
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+   
+
+.imgtext6 {
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;    
+}
+
+.imgtext7 {
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;   
+    margin-right: 100px; 
+}
+
+
+ /* PRODUCT IMAGES */
+
+ .productsimg {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20px;
+ }
+ 
+
+
+
+/* CONTACT BOX ACROSS PAGE */
+.info {
+    background-color:rgb(200, 200, 200);
+    width : 100%;
+    height: 100px;
+    left: 0px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-bottom: 6px solid rgb(78, 202, 245);
+    border-top: 2px solid rgb(78, 202, 245);
+}
+
+.info-text-box1 {
+    text-transform: uppercase;
+    margin-left: 50px;
+    font-weight: 800;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.btnproduct {
+    float: right;
+    margin-right: 150px;
+    text-decoration: none;
+    border: 3px solid white;
+    background-color: gray;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 5px;
+    margin-top:30px;
+    color: black;
+}
+.btnproduct:hover {
+    background-color:rgb(220,220,220);
+    color: black;
+}
+
+/* ABOUT US*/
+
+.aboutush1 {
+    color: rgb(78, 202, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 50px;
+} 
+
+.man1 {
+    display : flex;
+    justify-content: space-around;
+    
+}
+
+.ptext {
+    display : flex;
+    justify-content: space-around;
+    
+}
+
+.salestext {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(78, 202, 245);
+    font-size: 13px;   
+}
+
+.aboutush2 {
+    color:rgb(78, 202, 245);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 45px;
+}
+
+.main {
+    color:black;
+    text-align: left;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 18px;
+    margin-bottom: 50px; 
+}
+/* CONTACT PAGE */
+
+
+.contactpage {
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contactp {
+    text-align: center;
+    font-family: lato;
+    font-weight: 300;
+    font-size: 19px;
+    padding-bottom: 100px;
+}
+
+
+
+#map {
+    height: 60vh;
+    width: 100%;
+    border: none; 
+}
+
+
+
+ /*  FOOTER */
+
+.contact-boxes-container {
+    display: flex;
+    justify-content: space-evenly;
+   }
+   
+    /* ADDRESS*/
+
+   .contact-box-left {
+       padding-top: 20px;
+       font-size: 13px;    
+   }
+   
+   /* OPENING HOURS */
+
+   .contact-box-right {
+       padding-top: 20px;
+       font-size: 13px;     
+   }
+   
+   /* PHONE */
+   .contact-box-center {
+       padding-top: 20px;
+       font-size: 13px;
+       color: white;
+   }
+   
+   .contact-box-center > a {
+       text-decoration: none;
+       color: rgb(78, 202, 245);
+   }
+   
+   
+   footer {
+       background-color:gray;
+       color: white;
+       height: 130px;
+       width: 100%;
+        
+   }
+   
+   .days {
+      margin-right: 30px; 
+       
+   }
+
+   table {
+        text-align: right; 
+   }
+
+   
+
+   /* media queries  tablet and mobile devices */
+
+ @media screen and (max-width: 800px) {
+    .text-box {
+        font-size: 12px !important;
+        text-align: left !important;
+    }
+
+    .button {
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+
+    .imgmaintxt2 {
+        font-size: 12px !important; 
+    } 
+    
+    .imgmaintxt {
+     font-size: 12px !important;
+         
+    }
+
+    .imgtext4 {
+        margin-right: 20px !important;
+    }
+    .imgtext7 {
+        margin-right: 20px !important;
+    }
+
+    #map {
+        height:40vh !important; 
+    }
+
+    .info-text-box1 {
+        font-size: 20px !important;
+
+    }
+
+    .btnproduct {
+        margin-right: 60px !important;
+    }
+
+    .productsimg {
+        margin-left: 30px !important;
+    }
+
+    
+    
+   } 
+
+
+
+ @media screen and (max-width: 600px) {
+
+    #logo {
+        margin-top: 0px !important; 
+        margin-right: 0 !important; 
+        margin-bottom: 0px !important;  
+        margin-left: 80px !important; 
+        width: 60%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+
+    nav > a {
+        font-size: 12px !important;
+    }
+
+    .text-box{
+       display: none;
+    }
+
+    .button {
+       display: none;
+    }
+
+    
+
+    .call-box {
+        display: none;
+    }
+
+    
+   h1 {
+        font-size: 22px !important; 
+   }
+
+   h3 {
+       margin: 0 auto !important;
+   }
+
+   .one {
+       display: block !important;
+       width: 90% !important;
+       font-size: 11px !important;
+       margin-left: 11px !important;
+       text-align: center !important;
+   }
+
+   .two {
+       display: block !important;
+       width: 90% !important;
+       font-size: 11px !important; 
+       margin-left: 11px !important;
+       text-align: center !important;
+   }
+
+   .three {
+       display: block !important;
+       width: 90% !important;
+       font-size: 11px !important;
+       margin-left: 11px !important;
+       text-align: center !important;
+   }
+   
+
+   .contact-boxes-container {
+    display: block !important;
+    text-align: center; 
+
+   }
+    
+   
+
+    .contact-box-left {
+        font-size: 10px !important; 
+    }
+              
+   
+ 
+    .contact-box-right {
+        font-size: 10px !important;          
+    }
+    
+   
+    .contact-box-center {
+        font-size: 10px !important;
+    }
+
+    table {
+         display: flex;
+         justify-content: center;
+
+    }
+
+    footer {
+        height: 220px !important;
+        
+         
+    }
+
+
+    /* products */
+    .info {
+        display: none;
+    }
+
+    .productsimg {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    
+
+
+    /* ABOUT US */
+    .main {
+ 
+        font-size: 16px !important;
+         
+    }
+    .man1 {
+        display : none;
+       
+        
+        
+    }
+    
+    .ptext {
+        display : none;
+        
+        
+    }
+
+    .aboutush1 {
+    display: none;
+   }
+
+
+
+
+
+    /* CONTACT PAGE */
+
+    #map {
+        height: 40vh !important;
+    }
+ }
+    
